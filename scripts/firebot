@@ -1,0 +1,12 @@
+#!/bin/zsh
+
+cd ~/FireBot
+
+docker stop firebot
+
+docker rm firebot
+
+docker build -t firebot .
+
+docker run -d --restart always --network nginx_proxy_manager_default --name=firebot firebot
+

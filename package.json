@@ -1,0 +1,27 @@
+{
+  "name": "deku-webhooks",
+  "version": "1.0.0",
+  "description": "webhook triggers for my server deku",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JimmyMcBride/deku-webhooks.git"
+  },
+  "author": "Jimmy McBride",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JimmyMcBride/deku-webhooks/issues"
+  },
+  "homepage": "https://github.com/JimmyMcBride/deku-webhooks#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "eslint": "^8.36.0"
+  }
+}
